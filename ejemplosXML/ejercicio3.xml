@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<solicitudes>
+    
+    <reserva id="1" fecha_solicitud="1/12/2022">
+        <nombre>Jorge</nombre>
+        <telefono>653580574</telefono>
+        <email>jorgemorenocrespo926@gmail.com</email>
+        <dia>04/11/2023</dia>
+        <persona>4</persona>
+        <presupuesto>70</presupuesto>
+        <comentario>Texto de ejemplo</comentario>
+    </reserva>
+
+    <reserva id="2" fecha_solicitud="1/12/2022">
+        <nombre>Jorge</nombre>
+        <telefono>653580574</telefono>
+        <email>jorgemorenocrespo926@gmail.com</email>
+        <dia>04/11/2023</dia>
+        <persona>4</persona>
+        <presupuesto>70</presupuesto>
+        <comentario>Texto de ejemplo</comentario>
+    </reserva>
+    
+</solicitudes>
+
+
