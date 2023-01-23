@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<centro>
+    <alumno id="2359753453">
+        <nombre>Jorge</nombre>
+        <apellidos>Moreno Crespo</apellidos>
+        <telefono>653580574</telefono>
+        <emails>
+            <email>jorge.s333289@cesurformacion.com</email>
+            <email>jorgemorenocrespo926@gmail.com</email>
+        </emails>
+    </alumno>
+</centro>
+
