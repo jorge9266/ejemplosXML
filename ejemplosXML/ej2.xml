@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Pedido>
+    <Destinatario>
+        <Nombre>Francisco</Nombre>
+        <Apellido>Romero</Apellido>
+        <Direccion>
+            <Tipo>Calle</Tipo>
+            <Nombre>Huerta</Nombre>
+            <Numero>3</Numero>
+            <Letra>B</Letra>
+        </Direccion>
+    </Destinatario>
+    <Articulo>PlayStation5</Articulo>
+    <Entrega>19-01-2023</Entrega>
+    
+</Pedido>
+
