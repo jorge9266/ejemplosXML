@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filmafinity>
+    <taquillas>
+        <taquilla pais="España">
+            <fecha_inicio>25/12/2021</fecha_inicio>
+            <fecha_fin>27/12/2021</fecha_fin>
+            <peliculas>
+                <pelicula id="1">
+                    <nombre>Trolls 2: Gira mundial</nombre>
+                    <genero>Animacion</genero>
+                    <semanas>10</semanas>
+                    <recaudacion_fs>34000</recaudacion_fs>
+                    <recaudacion_total>2492000</recaudacion_total>
+                </pelicula>
+                <pelicula id="2">
+                    <nombre>Otra vuelta de tuerca</nombre>
+                    <genero>Terror</genero>
+                    <semanas>6</semanas>
+                    <recaudacion_fs>22000</recaudacion_fs>
+                    <recaudacion_total>184000</recaudacion_total>
+                </pelicula>
+            </peliculas>
+        </taquilla>
+        <taquilla pais="Estados Unidos">
+            <fecha_inicio>25/12/2021</fecha_inicio>
+            <fecha_fin>27/12/2021</fecha_fin>
+            <peliculas>
+                <pelicula id="1">
+                    <nombre>Wonder Woman 1984</nombre>
+                    <genero>Fantastico</genero>
+                    <semanas>1</semanas>
+                    <recaudacion_fs>16700000</recaudacion_fs>
+                    <recaudacion_total>16700000</recaudacion_total>
+                </pelicula>
+                <pelicula id="2">
+                    <nombre>Noticias del gran mundo</nombre>
+                    <genero>Western</genero>
+                    <semanas>1</semanas>
+                    <recaudacion_fs>2250000</recaudacion_fs>
+                    <recaudacion_total>2250000</recaudacion_total>
+                </pelicula>
+                <pelicula id="3">
+                    <nombre>Los Croods: Una nueva era</nombre>
+                    <genero>Animacion</genero>
+                    <semanas>5</semanas>
+                    <recaudacion_fs>1740000</recaudacion_fs>
+                    <recaudacion_total>30362000</recaudacion_total>
+                </pelicula>
+                <pelicula id="4">
+                    <nombre>Monster Hunter</nombre>
+                    <genero>Fantastico</genero>
+                    <semanas>2</semanas>
+                    <recaudacion_fs>1097000</recaudacion_fs>
+                    <recaudacion_total>1097000</recaudacion_total>
+                </pelicula>
+            </peliculas> 
+        </taquilla>        
+    </taquillas>
+</filmafinity>
+
