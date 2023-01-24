@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<factura_anual año="2023">
+    <factura_mensual mes="enero">
+        <factura id="999" fecha="12-01-2005" pedido="731" pago="Efectivo">
+            <base_imponible>970</base_imponible>
+            <iva>16%</iva>
+            <cuota_iva>155,2</cuota_iva>
+            <total>1125</total>
+            <datos>
+                <emisor cif="Q-9876543">
+                    <nombre>Equipos Digitales S.L</nombre>
+                    <direccion>Av. Valladolid</direccion>
+                    <localidad>Madrid 28015></localidad>
+                    <telefono>917776688</telefono>
+                    <fax>917776699</fax>
+                </emisor>
+                <cliente id="879">
+                    <nombre>Dario Bueno Gutiérrez</nombre>
+                    <direccion_envio>Av. Oporto nº7 4ºd</direccion_envio>
+                    <poblacion>Madrid</poblacion>
+                    <cod_post>28043</cod_post>
+                    <provicia>Madrid</provicia>
+                </cliente>
+                <articulos>
+                    <articulo ref="MII93000F/8">
+                        <descripcion>MICRO PENTIUM IV 3000MHZ FB800</descripcion>
+                        <cantidad>1</cantidad>
+                        <precio>230</precio>
+                        <importe>266,80</importe>
+                    </articulo>
+                    <articulo ref="MB8QDIP4">
+                        <descripcion>PLACA BASE QDI P4</descripcion>
+                        <cantidad>1</cantidad>
+                        <precio>180</precio>
+                        <importe>208,80</importe>
+                    </articulo>
+                    <articulo ref="MEDD512M32">
+                        <descripcion>DIMM DDR 512MB 3200</descripcion>
+                        <cantidad>2</cantidad>
+                        <precio>40</precio>
+                        <importe>92,80</importe>
+                    </articulo>
+                    <articulo ref="HD250GSA7">
+                        <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+                        <cantidad>4</cantidad>
+                        <precio>120</precio>
+                        <importe>556,80</importe>
+                    </articulo>
+                </articulos>
+            </datos>
+        </factura>
+    </factura_mensual>
+</factura_anual>
+
