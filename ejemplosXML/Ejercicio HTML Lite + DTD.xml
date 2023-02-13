@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE html [
+<!ELEMENT html (head, body)>
+<!ELEMENT head (title)>
+<!ELEMENT body (h1 | h2 | h3 | h4 | p | img | ul | ol | br | hr)*>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT h1 (#PCDATA)>
+<!ELEMENT h2 (#PCDATA)>
+<!ELEMENT h3 (#PCDATA)>
+<!ELEMENT h4 (#PCDATA)>
+<!ELEMENT p (#PCDATA | a | strong | br | img )*>
+<!ELEMENT strong (#PCDATA)>
+<!ELEMENT img EMPTY>
+<!ATTLIST img src CDATA #REQUIRED>
+<!ELEMENT ul (li)*>
+<!ELEMENT ol (li)*>
+<!ELEMENT li (#PCDATA)>
+<!ELEMENT br EMPTY>
+<!ELEMENT hr EMPTY>
+<!ELEMENT a (#PCDATA | img )*>
+<!ATTLIST a href CDATA #REQUIRED>
+<!ATTLIST a img src CDATA #REQUIRED>
+]>
+
+<html>
+  <head>
+    <title>Cesur Malaga Este</title>
+  </head>
+  <body>
+    <h1>Master</h1>
+    <h2>Grado Superior</h2>
+    <h3>Grado Medio</h3>
+    <h4>Grado Basico</h4>
+    <p><a href="https://www.cesurformacion.com/centros/malaga/este">Enlace a la pagina web</a><img src="https://www.cesurformacion.com/uploads/media/logo-small/09/19-cesur-fp.svg?v=6-0" /><br/><strong>Cesur Malaga Este</strong><br/></p>
+    
+    <hr/>
+    <ul>
+      <li>A distacia</li>
+      <li>Presencial</li>
+    </ul>
+    <ol>
+      <li>1º Año</li>
+      <li>2º Año</li>
+    </ol>
+  </body>
+</html>
