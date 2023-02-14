@@ -5,9 +5,10 @@
 <pedido id="74823729">
     <cliente>Francisco Romero</cliente>
     <contenido>
-        <articulo>Playstation 5</articulo>
-        <articulo>Howarts Legacy</articulo>
-        <articulo>Elden Ring</articulo>
+        <articulo id="65">Playstation 5</articulo>
+        <articulo id="45">Howarts Legacy</articulo>
+        <articulo id="55">Elden Ring</articulo>
+        <articulo id="75">Legend of Zelda</articulo>
     </contenido>
     <entrega>
         <tipovia>Calle</tipovia>

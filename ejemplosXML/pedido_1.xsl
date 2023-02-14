@@ -27,8 +27,11 @@
                     <xsl:value-of select="/pedido/@id"/>
                 </strong>
                 <xsl:for-each select="/pedido/contenido/articulo">
+                    <xsl:sort select="@id" order="descending" /> 
                     <p>
-                        <xsl:value-of select="." />
+                        <xsl:value-of select="." />(
+                        <xsl:value-of select="@id"/>
+                        )
                     </p>  
                 </xsl:for-each>    
                 <dl>

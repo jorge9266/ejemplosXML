@@ -27,9 +27,15 @@
                     <xsl:value-of select="/pedido/@id"/>
                 </strong>
                 <xsl:for-each select="/pedido/contenido/articulo">
+                    <xsl:sort select="@id" order="descending" /> 
+                    <xsl:if test="@id&lt;50 or @id&gt;70">
                     <p>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="@id" />
+                        </xsl:attribute>    
                         <xsl:value-of select="." />
-                    </p>  
+                    </p>
+                    </xsl:if>  
                 </xsl:for-each>    
                 <dl>
                     <dt>Tipo de via</dt>
