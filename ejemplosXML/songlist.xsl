@@ -24,6 +24,7 @@
                     flex-direction:column;
                     justify-content:center;
                     align-items:center;
+                    
                     }
                     table{
                     border:solid;
@@ -37,6 +38,10 @@
                     background-color:black;
                     color:white;
                     padding:1em;
+                    }
+                    tr.top td{
+                    background-color:yellow;
+                    }  
                 </style>
             </head>
             <body>
@@ -52,8 +57,14 @@
                         <th>Racha</th>
                         <th>Posicion</th> 
                     </tr>
-                    <xsl:for-each select="songlist/song">
+                    <xsl:for-each select="songlist/song[artist='David Bowie']">
+                    <xsl:sort select="title" order="ascending"/>
                     <tr>
+                    <xsl:if test="position='No. 1'" >
+                        <xsl:attribute name="class">
+                            top
+                        </xsl:attribute>
+                    </xsl:if>    
                         <td><xsl:value-of select="./title"/></td>
                         <td><xsl:value-of select="./appears"/></td>
                         <td><xsl:value-of select="./artist"/></td>
@@ -61,14 +72,13 @@
                         <td><xsl:value-of select="./producer"/></td>
                         <td><xsl:value-of select="./released"/></td>
                         <td><xsl:value-of select="./streak"/></td>
-                        <td><xsl:value-of select="./position"/></td> 
+                        <td><xsl:value-of select="./position"/></td>   
                     </tr>
                     </xsl:for-each>
                     </table>
             </body>
         </html>
     </xsl:template>
-
 </xsl:stylesheet>
 
 
