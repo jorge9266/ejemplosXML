@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE clase [
+
+
+
+]>
+
+
+<clase>
+    <alumnos>
+        <alumno>
+            <nombre></nombre>
+            <apellido></apellido>
+            <dni></dni>
+            <calificaciones>
+                <modulo nombre="SI"></modulo>
+                <modulo nombre="BD"></modulo>
+                <modulo nombre="LM"></modulo>
+                <modulo nombre="FOL"></modulo>
+                <modulo nombre=""></modulo>
+                <modulo nombre="SI"></modulo>
+
+            </calificaciones>
+        </alumno>
+    </alumnos>
+    
+</clase>
+
