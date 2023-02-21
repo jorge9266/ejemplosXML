@@ -17,9 +17,63 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>ejercicioexamen.xsl</title>
+                <title>Ejercicio Examen</title>
+                <style>
+                   
+                div{
+                    margin: 30px auto;
+                    border:solid;
+                    padding: 30px;
+                    display:flex;
+                    flex-direction:column;
+                    align-items:center;
+                    }
+                    
+                table{
+                    border-collapse: collapse;
+                    border:solid;
+                    }
+                    
+                table td, table th{
+                    border:solid;
+                    }
+  
+                </style>
             </head>
             <body>
+                <div>
+                <hi>Listado de notas de Clase</hi> 
+                <p>
+                    <xsl:value-of select="count(/clase/alumno)"/>
+                </p>   
+                </div>
+                
+                <xsl:for-each select="clase/alumno">
+                <div>
+                  <h1>
+                    <xsl:value-of select="nombre" />&#160;
+                    <xsl:value-of select="apellido" />
+                 </h1>
+                    
+                 <p>
+                    <xsl:value-of select="@dni" />
+                 </p>
+                 
+                 <table>
+                     <xsl:for-each select="notas/nota">
+                     <tr>
+                         <th><xsl:value-of select="@nombre"/></th>
+                         <td><xsl:value-of select="."/></td>
+                     </tr>
+                     </xsl:for-each>
+                    <tr>
+                         <th>Media</th>
+                         <td><xsl:value-of select="round(sum(notas/nota) div count(notas/nota))"/></td>
+                    </tr>
+                 </table>
+                </div>   
+                </xsl:for-each>  
+                  
             </body>
         </html>
     </xsl:template>

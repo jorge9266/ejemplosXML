@@ -1,29 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE clase [
-
-
-
+<!ELEMENT clase (alumno)*>
+<!ELEMENT alumno (nombre|apellido|notas)*>
+<!ATTLIST alumno dni CDATA #REQUIRED  >
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT notas (nota)*>
+<!ELEMENT nota (#PCDATA)>
+<!ATTLIST nota nombre (SI|BD|LM|FOL|PR|EN) #REQUIRED >
 ]>
 
 
 <clase>
-    <alumnos>
-        <alumno>
-            <nombre></nombre>
-            <apellido></apellido>
-            <dni></dni>
-            <calificaciones>
-                <modulo nombre="SI"></modulo>
-                <modulo nombre="BD"></modulo>
-                <modulo nombre="LM"></modulo>
-                <modulo nombre="FOL"></modulo>
-                <modulo nombre=""></modulo>
-                <modulo nombre="SI"></modulo>
-
-            </calificaciones>
+        <alumno dni="56461645D">
+            <nombre>RAUL</nombre>
+            <apellido>PLAZA</apellido>
+            <notas>
+                <nota nombre="SI">8</nota>
+                <nota nombre="BD">8</nota>
+                <nota nombre="LM">8</nota>
+                <nota nombre="PR">9</nota>
+                <nota nombre="EN">8</nota>
+            </notas>
         </alumno>
-    </alumnos>
-    
+        <alumno dni="15455788F">
+            <nombre>PEPE</nombre>
+            <apellido>BOTO</apellido>
+            <notas>
+                <nota nombre="SI">8</nota>
+                <nota nombre="BD">8</nota>
+                <nota nombre="LM">8</nota>
+                <nota nombre="FOL">7</nota>
+                <nota nombre="PR">9</nota>
+                <nota nombre="EN">8</nota>
+            </notas>
+        </alumno>
+        <alumno dni="42473778T">
+            <nombre>ALVARO</nombre>
+            <apellido>CEDAZO</apellido>
+            <notas>
+                <nota nombre="SI">8</nota>
+                <nota nombre="BD">8</nota>
+                <nota nombre="LM">8</nota>
+                <nota nombre="FOL">7</nota>
+                <nota nombre="PR">9</nota>
+            </notas>
+        </alumno>
+  
 </clase>
 
