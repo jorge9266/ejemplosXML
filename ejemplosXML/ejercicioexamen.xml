@@ -17,11 +17,11 @@
             <nombre>RAUL</nombre>
             <apellido>PLAZA</apellido>
             <notas>
-                <nota nombre="SI">8</nota>
-                <nota nombre="BD">8</nota>
-                <nota nombre="LM">8</nota>
+                <nota nombre="SI">4</nota>
+                <nota nombre="BD">3</nota>
+                <nota nombre="LM">2</nota>
                 <nota nombre="PR">9</nota>
-                <nota nombre="EN">8</nota>
+                <nota nombre="EN">7</nota>
             </notas>
         </alumno>
         <alumno dni="15455788F">
@@ -40,11 +40,11 @@
             <nombre>ALVARO</nombre>
             <apellido>CEDAZO</apellido>
             <notas>
-                <nota nombre="SI">8</nota>
-                <nota nombre="BD">8</nota>
-                <nota nombre="LM">8</nota>
-                <nota nombre="FOL">7</nota>
-                <nota nombre="PR">9</nota>
+                <nota nombre="SI">5</nota>
+                <nota nombre="BD">5</nota>
+                <nota nombre="LM">6</nota>
+                <nota nombre="FOL">4</nota>
+                <nota nombre="PR">3</nota>
             </notas>
         </alumno>
   

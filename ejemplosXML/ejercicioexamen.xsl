@@ -37,6 +37,11 @@
                 table td, table th{
                     border:solid;
                     }
+                    
+                tr.suspenso {
+                    background-color:red;
+                    } 
+ 
   
                 </style>
             </head>
@@ -62,6 +67,11 @@
                  <table>
                      <xsl:for-each select="notas/nota">
                      <tr>
+                        <xsl:if test=". &lt; 5">
+                            <xsl:attribute name="class">
+                                suspenso
+                            </xsl:attribute>
+                        </xsl:if>
                          <th><xsl:value-of select="@nombre"/></th>
                          <td><xsl:value-of select="."/></td>
                      </tr>
